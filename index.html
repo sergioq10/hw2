@@ -25,9 +25,11 @@
 </head>
 <body id="body">
      
-     <h1 id="title" class="jumbotron"> Trivia Quiz!!</h1>
+     <span id="title"> Trivia</span>
+     <h1 id="title2"> Quiz!!</h1>
+     <progress></progress>
      <h1 id="title2">Answer the following questions as best as you can.</h1>
-     
+     <span class="dot" text-align="left"></span>
          <!-- question 1 -->
     <h3 id="question1"><span id="markImg1"></span> What is the wold's largest river?</h3>
     <input type="text" id="q1">
@@ -56,7 +58,10 @@
     <input type="checkbox" id="red"><label for="red">Red</label>
     <br><br>
     <div id="q3Feedback"></div>
+    <span class="vl1"></span>
+    <span class="vl2"></span>
     
+     
     <h3 id="validationFdbk" class="bg-danger text-white"></h3> 
     <button class="btn btn-outline-success"> Submit Button </button>
     <br>
@@ -67,7 +72,14 @@
     
     <div>
         <img src="img/trivia.webp" alt="trivia pic">
+        <p id="p1">Hope you had fun!</p>
+        <span><i class="arrow left"></i></span>
+        <span><i class="arrow right"></i></span>
+        <span><i class="arrow up"></i></span>
+        <span><i class="arrow down"></i></span>
+        <span id="dots">...</span>
     </div>
+   
 </body>
 
 </html> 
