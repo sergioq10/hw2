@@ -1,0 +1,50 @@
+#body {
+    background-color: #DCDCDC;
+    font-size: larger; 
+    text-align: center; 
+    border-bottom: dashed;
+    border-color: white; 
+}
+
+#ind {
+    font-size: large;
+    font-family: cursive;
+    color: red; 
+}
+
+#question3 {
+    font-size: large;
+    font-family: cursive;
+    color: red;
+}
+
+#title {
+    font-size: larger;
+    font-family: inherit;
+    }
+
+#question1{
+    font-size: larger;
+    font-family: monospace;
+    
+}
+
+#question2{
+    font-size: larger;
+    font-family: monospace;
+    color: yellow; 
+}
+
+#totalScore{
+    color: gray;
+}
+
+#img1{
+    padding-top: 10px;  
+}
+
+#title2 {
+    font-size: medium;
+    font-style: italic;
+    padding-bottom: 50px; 
+}

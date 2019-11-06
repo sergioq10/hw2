@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    
+    <!-- external css file --> 
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+<head>
+    <meta charset="utf-8">
+    <title>Blockchain Quiz</title>
+    
+    <!-- bootstrap --> 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+     <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+     
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+    
+    <!-- external javascript file -->
+    <script src="js.js"></script>
+    
+   
+    
+    
+</head>
+<body id="body">
+     
+     <h1 id="title" class="jumbotron"> Trivia Quiz!!</h1>
+     <h1 id="title2">Answer the following questions as best as you can.</h1>
+     
+         <!-- question 1 -->
+    <h3 id="question1"><span id="markImg1"></span> What is the wold's largest river?</h3>
+    <input type="text" id="q1">
+    <br><br>
+    <div id="q1Feedback"></div>
+    <br><br>
+      
+     <!-- question 2 -->  
+    <h3 id="question3"><span id="markImg2"></span>In 2011, which country hosted a Formula 1 race for the first time?</h3>
+    <select id="q2">
+        <option value="">Select One</option>
+        <option id="ind" value="ind">India</option>
+        <option id="ira" value="ira">Iran</option>
+        <option id="afi" value="afi">Africa</option>
+        <option id="us"  value="us">Unites Sates</option>
+    </select>
+    <br><br>
+    <div id="q2Feedback"></div>
+    <br> <br>   
+        
+    <!-- question 3 --> 
+    <h3 id="question2"><span id="markImg3">What are the three primary colors?</span></h3>
+    <input type="checkbox" id="blue"><label for="blue">Blue</label>
+    <input type="checkbox" id="green"><label for="green">Green</label>
+    <input type="checkbox" id="yellow"><label for="yellow">Yellow</label>
+    <input type="checkbox" id="red"><label for="red">Red</label>
+    <br><br>
+    <div id="q3Feedback"></div>
+    
+    <h3 id="validationFdbk" class="bg-danger text-white"></h3> 
+    <button class="btn btn-outline-success"> Submit Button </button>
+    <br>
+    <h2 id="totalScore" class="text-info"></h2>
+    <h3 id="totalAttempts"></h3>
+    <!-- congrats message -->
+    <h3 id="congrats"></h3>
+    
+    <div>
+        <img src="img/trivia.webp" alt="trivia pic">
+    </div>
+</body>
+
+</html> 
